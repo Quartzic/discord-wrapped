@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/discord-wrapped/static/css/main.e734f657.css",
-    "main.js": "/discord-wrapped/static/js/main.f98e4b0e.js",
+    "main.js": "/discord-wrapped/static/js/main.cff51754.js",
     "static/js/787.3afa7b06.chunk.js": "/discord-wrapped/static/js/787.3afa7b06.chunk.js",
     "index.html": "/discord-wrapped/index.html",
     "main.e734f657.css.map": "/discord-wrapped/static/css/main.e734f657.css.map",
-    "main.f98e4b0e.js.map": "/discord-wrapped/static/js/main.f98e4b0e.js.map",
+    "main.cff51754.js.map": "/discord-wrapped/static/js/main.cff51754.js.map",
     "787.3afa7b06.chunk.js.map": "/discord-wrapped/static/js/787.3afa7b06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e734f657.css",
-    "static/js/main.f98e4b0e.js"
+    "static/js/main.cff51754.js"
   ]
 }
