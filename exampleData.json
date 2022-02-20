@@ -1,0 +1,331 @@
+{
+  "guild": {
+    "id": "0",
+    "name": "Direct Messages",
+    "iconUrl": "https://cdn.discordapp.com/embed/avatars/0.png"
+  },
+  "channel": {
+    "id": "944971022938034357",
+    "type": "DirectTextChat",
+    "categoryId": "0",
+    "category": "Private",
+    "name": "rydenisrael",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "messages": [
+    {
+      "id": "944971208527605770",
+      "type": "Default",
+      "timestamp": "2022-02-20T14:58:12.829+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hey! Are you still looking for a team mate? I have some experience in data science using python if that would help!",
+      "author": {
+        "id": "762189748303298560",
+        "name": "rydenisrael",
+        "discriminator": "0348",
+        "nickname": "rydenisrael",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/762189748303298560/ffaea0d12fb6c52243a88651b572b4bf.png?size=128"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "944971423124963328",
+      "type": "Default",
+      "timestamp": "2022-02-20T14:59:03.993+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Want to call for a min or two to talk about our project and see if you're interested?",
+      "author": {
+        "id": "194083628379013120",
+        "name": "Quartzic",
+        "discriminator": "4358",
+        "nickname": "Quartzic",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/194083628379013120/6ca7957424c6086b48fbc7113871c144.png?size=128"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "944971449603616842",
+      "type": "Default",
+      "timestamp": "2022-02-20T14:59:10.306+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://discord.gg/Yz3K5ReE",
+      "author": {
+        "id": "194083628379013120",
+        "name": "Quartzic",
+        "discriminator": "4358",
+        "nickname": "Quartzic",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/194083628379013120/6ca7957424c6086b48fbc7113871c144.png?size=128"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "944971537872744589",
+      "type": "Default",
+      "timestamp": "2022-02-20T14:59:31.351+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "sure!",
+      "author": {
+        "id": "762189748303298560",
+        "name": "rydenisrael",
+        "discriminator": "0348",
+        "nickname": "rydenisrael",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/762189748303298560/ffaea0d12fb6c52243a88651b572b4bf.png?size=128"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "944981217810477066",
+      "type": "Default",
+      "timestamp": "2022-02-20T15:37:59.228+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "test",
+      "author": {
+        "id": "194083628379013120",
+        "name": "Quartzic",
+        "discriminator": "4358",
+        "nickname": "Quartzic",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/194083628379013120/6ca7957424c6086b48fbc7113871c144.png?size=128"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "944981259342446692",
+      "type": "Default",
+      "timestamp": "2022-02-20T15:38:09.13+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "\uD83D\uDE04",
+      "author": {
+        "id": "194083628379013120",
+        "name": "Quartzic",
+        "discriminator": "4358",
+        "nickname": "Quartzic",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/194083628379013120/6ca7957424c6086b48fbc7113871c144.png?size=128"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE2D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/svg/1f62d.svg"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "944981272500011029",
+      "type": "Default",
+      "timestamp": "2022-02-20T15:38:12.267+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": ":)))",
+      "author": {
+        "id": "762189748303298560",
+        "name": "rydenisrael",
+        "discriminator": "0348",
+        "nickname": "rydenisrael",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/762189748303298560/ffaea0d12fb6c52243a88651b572b4bf.png?size=128"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "944981294113235004",
+      "type": "Call",
+      "timestamp": "2022-02-20T15:38:17.42+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": "2022-02-20T15:38:21.985+00:00",
+      "isPinned": false,
+      "content": "Started a call that lasted 0 minutes.",
+      "author": {
+        "id": "194083628379013120",
+        "name": "Quartzic",
+        "discriminator": "4358",
+        "nickname": "Quartzic",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/194083628379013120/6ca7957424c6086b48fbc7113871c144.png?size=128"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "762189748303298560",
+          "name": "rydenisrael",
+          "discriminator": "0348",
+          "nickname": "rydenisrael",
+          "isBot": false
+        }
+      ]
+    },
+    {
+      "id": "944981356037959740",
+      "type": "Default",
+      "timestamp": "2022-02-20T15:38:32.184+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "\uD83D\uDE0E",
+      "author": {
+        "id": "762189748303298560",
+        "name": "rydenisrael",
+        "discriminator": "0348",
+        "nickname": "rydenisrael",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/762189748303298560/ffaea0d12fb6c52243a88651b572b4bf.png?size=128"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "944981392217997313",
+      "type": "Default",
+      "timestamp": "2022-02-20T15:38:40.81+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "194083628379013120",
+        "name": "Quartzic",
+        "discriminator": "4358",
+        "nickname": "Quartzic",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/194083628379013120/6ca7957424c6086b48fbc7113871c144.png?size=128"
+      },
+      "attachments": [
+        {
+          "id": "944981391869886474",
+          "url": "https://cdn.discordapp.com/attachments/944971022938034357/944981391869886474/is_it_worth_the_time_2x.png",
+          "fileName": "is_it_worth_the_time_2x.png",
+          "fileSizeBytes": 128729
+        }
+      ],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "944981408185724969",
+      "type": "Default",
+      "timestamp": "2022-02-20T15:38:44.617+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://tenor.com/view/spongebob-patrick-star-laughing-happy-gif-24593215",
+      "author": {
+        "id": "762189748303298560",
+        "name": "rydenisrael",
+        "discriminator": "0348",
+        "nickname": "rydenisrael",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/762189748303298560/ffaea0d12fb6c52243a88651b572b4bf.png?size=128"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "",
+          "url": "https://tenor.com/view/spongebob-patrick-star-laughing-happy-gif-24593215",
+          "timestamp": null,
+          "description": "",
+          "thumbnail": {
+            "url": "https://images-ext-2.discordapp.net/external/umiO5ph_86tvqHKRmU0DAmaw69zOHKJdL7RQmuVT8Q4/https/media.tenor.co/images/94dda0f4154f647ce111d08cb83fc829/tenor.png",
+            "width": 640,
+            "height": 414
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "944981483964207125",
+      "type": "Default",
+      "timestamp": "2022-02-20T15:39:02.684+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "762189748303298560",
+        "name": "rydenisrael",
+        "discriminator": "0348",
+        "nickname": "rydenisrael",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/762189748303298560/ffaea0d12fb6c52243a88651b572b4bf.png?size=128"
+      },
+      "attachments": [
+        {
+          "id": "944981482571714621",
+          "url": "https://cdn.discordapp.com/attachments/944971022938034357/944981482571714621/Screenshot_2020-09-29_231952.png",
+          "fileName": "Screenshot_2020-09-29_231952.png",
+          "fileSizeBytes": 11041
+        }
+      ],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    }
+  ],
+  "messageCount": 12
+}
