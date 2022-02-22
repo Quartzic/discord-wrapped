@@ -16,6 +16,7 @@ import SpecialMessageTypesInfo from "./VisualizationModules/SpecialMessageTypesI
 import CallInfoModule from "./VisualizationModules/CallInfoModule.js";
 import StatsCards from "./LayoutModules/StatsCards.js";
 import FAQ from "./LayoutModules/FAQ.js";
+import export_image from '../assets/images/export.png';
 import * as calc from "../DataOrg.js";
 class Main extends React.Component {
   constructor() {
@@ -79,7 +80,9 @@ class Main extends React.Component {
                   DiscordChatExporter
                 </a>{" "}
                 to export your chat history from Discord to a JSON file.
-                Then, upload the file to this website.
+                Then, open the file with Discord Wrapped to see your analysis.
+
+                <img src={export_image}></img>
               </p>
             ),
           },
@@ -88,7 +91,7 @@ class Main extends React.Component {
             answer: (
               <>
                 <p>
-                  Discord Chat Analyzer runs entirely in-browser and{" "}
+                  Discord Wrapped runs entirely in-browser and{" "}
                   <b>does not store or send any chat data</b>. We use{" "}
                   <a
                     href="https://www.goatcounter.com"
