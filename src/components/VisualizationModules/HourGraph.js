@@ -3,10 +3,6 @@ import * as calc from "../../DataOrg";
 import Plot from "react-plotly.js";
 
 export default class HourGraph extends React.Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <>

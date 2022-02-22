@@ -2,10 +2,6 @@ import React from 'react';
 import StatsCards from '../LayoutModules/StatsCards';
 import * as calc from '../../DataOrg';
 export default class SpecialMessageTypesInfo extends React.Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
         <StatsCards

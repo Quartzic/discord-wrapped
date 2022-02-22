@@ -4,10 +4,6 @@ import { ChevronDownIcon } from '@heroicons/react/outline'
 import classNames from "classnames";
 
 class FAQ extends React.Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <div >
