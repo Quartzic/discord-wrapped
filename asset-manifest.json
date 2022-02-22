@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/discord-wrapped/static/css/main.305578bc.css",
-    "main.js": "/discord-wrapped/static/js/main.6f0ce140.js",
+    "main.css": "/discord-wrapped/static/css/main.8c9a0bcb.css",
+    "main.js": "/discord-wrapped/static/js/main.140042d6.js",
     "static/js/787.3afa7b06.chunk.js": "/discord-wrapped/static/js/787.3afa7b06.chunk.js",
-    "static/media/export.png": "/discord-wrapped/static/media/export.619059c4996570550176.png",
+    "static/media/dce_token.png": "/discord-wrapped/static/media/dce_token.3d467da1267911b69ffc.png",
+    "static/media/dce_mac.png": "/discord-wrapped/static/media/dce_mac.1570435ddd67515ec182.png",
+    "static/media/dce_windows.png": "/discord-wrapped/static/media/dce_windows.692d1bad4beee1a98aff.png",
     "index.html": "/discord-wrapped/index.html",
-    "main.305578bc.css.map": "/discord-wrapped/static/css/main.305578bc.css.map",
-    "main.6f0ce140.js.map": "/discord-wrapped/static/js/main.6f0ce140.js.map",
+    "main.8c9a0bcb.css.map": "/discord-wrapped/static/css/main.8c9a0bcb.css.map",
+    "main.140042d6.js.map": "/discord-wrapped/static/js/main.140042d6.js.map",
     "787.3afa7b06.chunk.js.map": "/discord-wrapped/static/js/787.3afa7b06.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.305578bc.css",
-    "static/js/main.6f0ce140.js"
+    "static/css/main.8c9a0bcb.css",
+    "static/js/main.140042d6.js"
   ]
 }
