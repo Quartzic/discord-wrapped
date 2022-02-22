@@ -13,9 +13,13 @@ class FilePicker extends React.Component {
     this.handleClearFile = this.handleClearFile.bind(this);
     this.fileReader.onload = (event) => {
       // or do whatever manipulation you want on JSON.parse(event.target.result) here.
-      let jsonFile = JSON.parse(event.target.result);
-      this.setState({isFileLoaded: true});
-      this.props.handleChange(jsonFile);
+      try{
+        let jsonFile = JSON.parse(event.target.result);
+        this.setState({isFileLoaded: true});
+        this.props.handleChange(jsonFile);
+      } catch(e){
+        alert("Something went wrong parsing your file.");
+      }
       
     };
   }
