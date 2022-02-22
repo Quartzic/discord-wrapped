@@ -22,7 +22,7 @@ export default class MostCommonReactionModule extends React.Component {
     return (
       <>
         <dt className="text-sm font-medium text-gray-500 truncate">Top reactions</dt>
-        <ul role="list" className="divide-y divide-gray-200">
+        <ul className="divide-y divide-gray-200">
         {(data.length > 0) ? (
           <FixedSizeList
             itemData={data}
