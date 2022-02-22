@@ -16,7 +16,9 @@ import SpecialMessageTypesInfo from "./VisualizationModules/SpecialMessageTypesI
 import CallInfoModule from "./VisualizationModules/CallInfoModule.js";
 import StatsCards from "./LayoutModules/StatsCards.js";
 import FAQ from "./LayoutModules/FAQ.js";
-import export_image from '../assets/images/export.png';
+import dce_mac from "../assets/images/dce_mac.png";
+import dce_windows from "../assets/images/dce_windows.png";
+import dce_token from "../assets/images/dce_token.png";
 import * as calc from "../DataOrg.js";
 class Main extends React.Component {
   constructor() {
@@ -66,54 +68,92 @@ class Main extends React.Component {
               <DayGraph data={this.state.data} />
             </VerticalModuleList>
           </>
-        ) : <FAQ
-        data={[
-          {
-            question: "How do I export my data for use with this tool?",
-            answer: (
-              <p>
-                You can use{" "}
-                <a
-                  href="https://github.com/Tyrrrz/DiscordChatExporter"
-                  className="underline text-blue-600 hover:text-blue-800"
-                >
-                  DiscordChatExporter
-                </a>{" "}
-                to export your chat history from Discord to a JSON file.
-                Then, open the file with Discord Wrapped to see your analysis.
-
-                <img src={export_image}></img>
-              </p>
-            ),
-          },
-          {
-            question: "Is this site private?",
-            answer: (
-              <>
-                <p>
-                  Discord Wrapped runs entirely in-browser and{" "}
-                  <b>does not store or send any chat data</b>. We use{" "}
-                  <a
-                    href="https://www.goatcounter.com"
-                    className="underline text-blue-600 hover:text-blue-800"
-                  >
-                    Goat Counter
-                  </a>{" "}
-                  and{" "}
-                  <a
-                    href="https://sentry.io"
-                    className="underline text-blue-600 hover:text-blue-800"
-                  >
-                    Sentry
-                  </a>{" "}
-                  for analytics and error-monitoring.
-                </p>
-              </>
-            ),
-          },
-        ]}
-      />}
-
+        ) : (
+          <FAQ
+            data={[
+              {
+                question: "How do I export my data for use with this tool?",
+                answer: (
+                  <p>
+                    To use this tool, you'll first need to export your chat history to a JSON file with{" "}
+                    <a
+                      href="https://github.com/Tyrrrz/DiscordChatExporter"
+                      className="underline text-blue-600 hover:text-blue-800"
+                    >
+                      DiscordChatExporter
+                    </a>.
+                    {/* Get your token */}
+                    <div className="my-10 text-center">
+                      <h2 className="text-lg font-bold mt-5 ">Get your token</h2>
+                      <p className="mx-4">
+                        Sign into Discord on the web and inspect an authenticated request. Copy the <code>Authorization</code> header value.
+                      </p>
+                      <div class="flex flex-row justify-center mt-2">
+                        <img
+                          src={dce_token}
+                          className="shadow-xl rounded-xl my-2"
+                        ></img>
+                      </div>
+                    </div>
+                    {/* Windows */}
+                    <div className="my-10 text-center">
+                      <h2 className="text-lg font-bold mt-5 ">Windows</h2>
+                      <p className="mx-4">
+                        Use the GUI version of DiscordChatExporter.
+                      </p>
+                      <div class="flex flex-row justify-center mt-2">
+                        <img
+                          src={dce_windows}
+                          className="shadow-xl rounded-xl my-2"
+                        ></img>
+                      </div>
+                    </div>
+                    {/* macOS */}
+                    <div className="my-10 text-center">
+                      <h2 className="text-lg font-bold mt-5 ">
+                        macOS and Linux
+                      </h2>
+                      <p className="mx-4">
+                        Use the CLI version of DiscordChatExporter.
+                      </p>
+                      <div class="flex flex-row justify-center mt-2">
+                        <img
+                          src={dce_mac}
+                          className="shadow-xl rounded-xl my-2"
+                        ></img>
+                      </div>
+                    </div>
+                  </p>
+                ),
+              },
+              {
+                question: "Is this site private?",
+                answer: (
+                  <>
+                    <p>
+                      Discord Wrapped runs entirely in-browser and{" "}
+                      <b>does not store or send any chat data</b>. We use{" "}
+                      <a
+                        href="https://www.goatcounter.com"
+                        className="underline text-blue-600 hover:text-blue-800"
+                      >
+                        Goat Counter
+                      </a>{" "}
+                      and{" "}
+                      <a
+                        href="https://sentry.io"
+                        className="underline text-blue-600 hover:text-blue-800"
+                      >
+                        Sentry
+                      </a>{" "}
+                      for analytics and error-monitoring.
+                    </p>
+                  </>
+                ),
+              },
+            ]}
+          />
+        )}
       </div>
     );
   }
